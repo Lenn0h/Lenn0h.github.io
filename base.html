@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorteSur Maquinaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/nsmaq_white.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header" id="base-header">
+        <div class="contenedor">
+            <div class="header__contenido">
+                <a href="index.html" class="logo centrar-texto">
+                    <img class="logo__imagen" src="img/Log_NSMaq_Blanco.png" alt="">
+                </a>
+                <nav class="nav-bar">
+                    <a href="index.html" class="nav-bar__enlaces">Inicio</a>
+                    <a href="#nosotros" class="nav-bar__enlaces">Nosotros</a>
+                    <a href="#servicio" class="nav-bar__enlaces">Servicios</a>
+                    <a href="contacto.html#form-contacto" class="nav-bar__enlaces">Contacto</a> 
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="info-video">
+        <video autoplay muted loop class="video-principal">
+            <source src="img/video_prueba1.mp4">
+        </video>
+        <section class="contenido-video"> 
+            <h1 class="centrar-texto no-margin">NorteSur <span>Maquinarias</span></h1>
+            <p class="no-margin centrar-texto">La mayor calidad en maquinaria para tu construcción</p>  
+        </section>
+    </div>
+
+    <section class="bg-contenido_body sombra">
+        <div class="contenedor sombra transparencia-contenido">
+            <main class="contenido-principal" id="contenido-principal">
+                <section id="nosotros" class="sobre-nosotros">
+                    <div class="titulo-main centrar-texto">
+                        <h2 class="scroll-animation--heading_variante">¿Quienes <br>somos?</h2> 
+                        <h4 class="scroll-animation--heading_variante no-margin">Un poco más sobre nosotros...</h4>
+                        <div class="imagen">
+                            <img class="imagen__nosotros" src="img/20201116_170554.jpg" alt=""> 
+                        </div>
+                    </div>
+                    <div class="texto-nosotros centrar-texto">
+                        <h2 class="scroll-animation--heading">NorteSur <span class="nosotros-extra">Maquinarias</span></h2>
+                        <p  class="scroll-animation">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum, 
+                            blanditiis reprehenderit at dolore necessitatibus, magni molestiae 
+                            illum tenetur quisquam quos ut numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum, 
+                            blanditiis reprehenderit at dolore necessitatibus, magni molestiae 
+                            illum tenetur quisquam quos ut numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum, 
+                            blanditiis reprehenderit at dolore necessitatibus, magni molestiae 
+                            illum tenetur quisquam quos ut numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum, 
+                            blanditiis reprehenderit at dolore necessitatibus, magni molestiae 
+                            illum tenetur quisquam quos ut numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum, 
+                            blanditiis reprehenderit at dolore necessitatibus, magni molestiae 
+                            illum tenetur quisquam quos ut numquam.
+                            illum tenetur quisquam quos ut numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </section>
+            </main>
+        
+            <div class="contenido-servicios">
+                <section id="servicio" class="servicios">
+                    <div class="servicios__titulo titulo-main centrar-texto">
+                        <h2 class="scroll-animation--heading_variante" >Nuestros <br> Servicios</h2>
+                    </div> 
+                    <div class="texto-servicios">
+                        <h4 class="centrar-texto">Servicios disponibles en nuestra empresa</h4>
+                        <ul class="centrar-texto no-padding ">
+                            <li class="scroll-animation--heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li class="scroll-animation--heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li class="scroll-animation--heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="servicios_imagenes ">
+                    <div class="contenido_img">
+                        <img class="imagenes-sev btn-abrir-modal scroll-animation--heading_variante" src="img/sev1.png" alt="">
+                        <button class="btn-imagen btn-abrir-modal" >Información</button>  
+                    </div>
+                    <div class="contenido_img">
+                        <img class="imagenes-sev btn-abrir-modal scroll-animation--heading_variante" src="img/sev2.png" alt="">
+                        <button class="btn-imagen btn-abrir-modal" >Información</button>
+                    </div>
+                    <div class="contenido_img">
+                        <img class="imagenes-sev btn-abrir-modal scroll-animation--heading_variante" src="img/sev3.png" alt="">
+                        <button class="btn-imagen btn-abrir-modal" >Información</button>
+                    </div>
+                </div>
+
+                <dialog  id="modal">
+                    <h3 class="centrar-texto no-margin">Bienvenido a nuestros servicios</h3>
+                    <p class="centrar-texto">Pulsa en uno de los pdf para tener mas información acerca de cada uno de nuestros servicios y maquinaria disponibles.</p>
+    
+                    <div class="iconos-pdf">
+                        <a href="pdf/PDFprueba.pdf" target="_blank">
+                            <img class="imagen-pdf" src="img/archivo-pdf.png" alt="">
+                            <p class="centrar-pdf">Servicio 1</p>
+                        </a>
+                        <a href="pdf/PDFprueba.pdf" target="_blank">
+                            <img class="imagen-pdf" src="img/archivo-pdf.png" alt="">
+                            <p class="centrar-pdf">Servicio 2</p>
+                        </a>
+                        <a href="pdf/PDFprueba.pdf" target="_blank">
+                            <img class="imagen-pdf" src="img/archivo-pdf.png" alt=""> 
+                            <p class="centrar-pdf">Servicio 3</p>
+                        </a>
+                    </div>
+                    <button class="btn-serv" id="btn-cerrar-modal">Salir</button>
+                </dialog>  
+            </div>
+            <section class="equipo">
+                <div class="titulo-main centrar-texto">
+                    <h2 class="scroll-animation--heading centrar-texto">Nuestra Equipación</h2> 
+                    <h4 class="scroll-animation--heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.Maiores, soluta? In, eligendi. Quas obcaecati ea fuga, dolorum: </h4>
+                </div>
+                <div class="texto-equipo">
+                    <ul class="no-margin">
+                        <li class="scroll-animation--heading">Calidad</li>
+                        <li class="scroll-animation--heading">Alto rendimiento</li>
+                        <li class="scroll-animation--heading">Eficiencia</li>
+                        <li class="scroll-animation--heading">Productivos</li>
+                        <li class="scroll-animation--heading">Alta velocidad</li>
+                        <li class="scroll-animation--heading">Certificados</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        </div>
+        
+
+    <footer class="footer sombra scroll-animation--heading" id="base-footer">
+        <div class="contenedor contenido-footer">
+            <div class="footer-contenido centrar-texto">
+                <div class="footer-first">
+                    <a href="index.html" class="logo centrar-texto">
+                        <img class="logo__imagen" src="img/nsmq_black.png" alt="">
+                    </a>
+                    <h1 class="centrar-texto no-margin">NorteSur <span>Maquinarias</span></h1>
+                    <p class="no-margin centrar-texto">La mayor calidad en maquinaria para tu construcción</p> 
+                </div>
+                <div class="footer-second">
+                    <p><img src="img/llamada.png" alt=""> <span>Contáctanos: </span> +56942423333</p>
+                    <p><img src="img/mapa.png" alt=""> <span>Ubicación: </span>Concepcion 12345</p>
+                    <p class="no-margin"><img src="img/gmail.png" alt=""> NSMaquinaria@gmail.com</p>
+                </div>
+                <div class="maps-footer">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.3815230507867!2d-73.03175552356878!3d-36.80937657224456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b44873bb458b%3A0xe1e7c7c4b1509028!2sInmobiliaria%20Lomas%20De%20Bellavista%20S.A.!5e0!3m2!1ses!2scl!4v1699032940633!5m2!1ses!2scl" width="auto" height="250" style="border-style: none; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animation.js"></script>
+    <script src="js/scroll.js"></script> 
+    <script src="js/modal.js"></script> 
+</body> 
+
+</html> 
